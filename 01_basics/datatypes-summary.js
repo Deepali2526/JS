@@ -37,3 +37,34 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)  //function
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/*There are 2 types of memory stack and heap*/
+
+//Stack (Primitive), Heap(Non-Primitive)
+
+console.log("****************************")
+
+let myYoutubeName = "deepalidotcom"
+
+let anothername = myYoutubeName
+anothername = "payaldotcom"
+
+console.log(myYoutubeName)
+console.log(anothername)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "deepali@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
